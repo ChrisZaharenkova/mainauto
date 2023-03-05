@@ -98,7 +98,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     text-align: end;
 }
 @media(max-width:1400px){
@@ -135,7 +135,7 @@ body {
 @media(max-width:991px){
     
     .header{font-size: 14px;}
-    .header__city{font-size: 14px;}
+    
     .fuulscreen__title {
         font-size: 57px;
         margin-bottom: 20px;
