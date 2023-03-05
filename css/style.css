@@ -89,22 +89,25 @@ body {
 .fullscreen__body {
     
     z-index: 2;
-    text-align: right;
+   
     background-color: #444b4ac2;
     flex: 1 1 auto;
-    padding: 300px 20px;
+    padding: 300px 0;
 }
 .fullscreen__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
+    text-align: end;
 }
 @media(max-width:1400px){
     .fullscreen{min-height: 100vh;}
     .fullscreen__container{
         min-height: 100vh;
     }
-    .fullscreen__body{padding: 0 20px;}
+    .fullscreen__body{padding: 0;}
+ 
 }
 .fullscreen__label {
     font-size: 24px;
@@ -162,18 +165,16 @@ body {
     .header__list{
         display: none;
     }
-    .fullscreen__body{
-        align-items: center;
-        text-align: center;
-        padding: 0 20px;
+    .fullscreen__container{
+        
     }
     .fuulscreen__title {
-        font-size: 36px;
+        font-size: 24px;
         margin-bottom: 20px;
     }
-    .fullscreen__label{font-size: 18px;}
+    .fullscreen__label{font-size: 14px;}
     .fullscren__subtitle{
-        font-size: 16px;
+        font-size: 14px;
      
         
     }
